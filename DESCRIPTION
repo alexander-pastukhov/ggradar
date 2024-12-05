@@ -1,0 +1,26 @@
+Package: ggradar
+Type: Package
+Title: Collections of Geoms for Radar Plots
+Version: 0.1.0
+Authors@R:
+  person(given = "Alexander",
+         family = "Pastukhov",
+         role = c("aut", "cre"),
+         email ="pastukhov.alexander@gmail.com",
+         comment = c(ORCID = "0000-0002-8738-8591"))
+Description: Collections of geoms compatible with ggplot2 for polar coordinates.
+    Includes point, line, ribbon, and area geoms.
+Encoding: UTF-8
+License: GPL (>= 3)
+Depends:
+  R (>= 4.1.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+URL: https://alexander-pastukhov.github.io/ggradar/
+Imports:
+  dplyr,
+  ggplot2,
+  purrr,
+  rlang,
+  scales,
+  tidyr
