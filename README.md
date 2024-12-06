@@ -9,6 +9,7 @@ library("devtools")
 install_github("alexander-pastukhov/ggradat", dependencies=TRUE)
 ```
 
+## Usage
 
 
 ```r
@@ -16,7 +17,9 @@ example_df <- data.frame(x = factor(1:8),
                          y = c(0.8, 0.4, 1.0, 0.6, 0.4, 0.3, 0.9, 0.2)) |>
   mutate(ymin = y - runif(n(), 0, 0.2),
          ymax = y + runif(n(), 0, 0.2))
+```
 
+```{r}
 ggplot2::ggplot(example_df, ggplot2::aes(x = x, y = y)) +
   geom_radar_ribbon(aes(ymin = ymin, ymax = ymax), fill = "#b3dee5ff", alpha = 0.5) +
   geom_radar_line(color = "#faac22ff") +
