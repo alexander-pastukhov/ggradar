@@ -1,4 +1,4 @@
-# ggradar <img align="right" src="https://raw.githubusercontent.com/alexander-pastukhov/eyelinkReader/refs/heads/master/ggradar.svg" alt="Logo" height="138" style="float:right; height:138px;">
+# ggradar <img align="right" src="https://raw.githubusercontent.com/alexander-pastukhov/ggradar/refs/heads/main/ggradar.svg" alt="Logo" height="138" style="float:right; height:138px;">
 Collections of geoms compatible with ggplot2 for polar coordinates. Includes point, line, ribbon, and area geoms.
 
 
