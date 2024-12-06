@@ -116,4 +116,3 @@ geom_radar_ribbon <- function(mapping = NULL, data = NULL, stat = "identity",
   )
 }
 
-
